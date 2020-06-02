@@ -1,1 +1,0 @@
-# KAB-Denkingen
