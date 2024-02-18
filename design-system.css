@@ -1,0 +1,11 @@
+.container-xl {
+	max-width: 1200px;
+	margin: auto;
+	height: max-content;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+}
