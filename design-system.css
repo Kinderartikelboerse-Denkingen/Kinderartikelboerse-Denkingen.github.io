@@ -9,3 +9,13 @@
 	font-weight: 700;
 	margin-bottom: 1.5rem;
 }
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 300px;
+	gap: 12px;
+	margin-bottom: 2rem;
+}

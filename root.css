@@ -5,3 +5,37 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.social-links a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.whatsapp {
+	background-color: #25D366;
+}
+
+.instagram {
+	background-color: #C13584;
+}
+
+.facebook {
+	background-color: #3B5998;
+}
+
+.homepage {
+	background-color: #0077B5;
+}
