@@ -98,14 +98,18 @@ footer {
 
 @media (max-width: 750px) {
 	.page-title {
-		font-size: 1rem;
-		text-align: start;
-		margin-left: 10%;
+		font-size: 1.2rem;
 	}
 	
 	.social-links>.social-link{
 		flex-basis: 100%;
 		justify-content: center;
 		margin: 0;
+	}
+}
+
+@media (max-width: 370px) {
+	.page-title {
+		font-size: 1rem;
 	}
 }
