@@ -6,3 +6,8 @@ url: https://kinderartikelboerse-denkingen.github.io/services-docs
 
 aux_links:
   This Repository: https://github.com/Kinderartikelboerse-Denkingen/services-docs
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.4.1"

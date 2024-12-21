@@ -16,7 +16,47 @@ If you plan on making this a public service, you should change the password in t
 
 ## Database schema
 
-This is under active development and will be documented here as I decided on something.
+This is the naive idea of the database schema. This is not final and will most likely change in the future.
+
+```mermaid
+erDiagram
+    Event {
+        int id
+        Date date
+    }
+    Registration {
+        int id
+        Event event
+        Seller user
+    }
+    Seller {
+        int id
+        string email
+        string password
+        string firstName
+        string lastName
+        string address
+        string phoneMobile
+        string phoneLandline
+    }
+    Lock {
+        int id
+        Seller seller
+        string reason
+    }
+    Item {
+        int id
+        Registration registration
+        string description
+        string size
+        int price
+    }
+    
+    Registration }o--|| Event : ""
+    Registration }o--|| Seller : ""
+    Registration ||--o{ Item : ""
+    Seller }o--|| Lock : ""
+```
 
 
 ----
